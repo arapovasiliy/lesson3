@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:  center;
+    gap: 30px;
+}
+section h2{
+    font-size: 28px;
+}
+section p{
+    width: 80vw;
+    font-size: 24px;
+}
+.vinous-section {
+    background-color: #722F37;
+}
+
+.turquoise-section {
+    background-color: #30D5C8;
+}
+.green-section{
+    background-color: mediumseagreen;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 48px;
+}
